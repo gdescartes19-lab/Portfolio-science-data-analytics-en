@@ -1,0 +1,23 @@
+VALIDATION REPORT — ENGLISH PORTFOLIO
+
+Source: English Portfolio OPGeiner Bejarano.html (original upload)
+Output architecture: self-contained index.html + .nojekyll
+
+Checks performed:
+- Main navigation anchor targets exist.
+- Three project buttons are present: p1, p2, p3.
+- Embedded project payloads found: p1, p2, p3.
+- Each embedded project successfully decoded from Base64 + GZIP into HTML.
+- Main-page images/icons use embedded data URLs; no local image paths are required.
+- JavaScript syntax checked with Node.js.
+- Data Science / Data Analytics headings are present.
+- No external assets/cases folders are required.
+
+Embedded case sizes after decompression:
+- p1: 3,778,135 bytes HTML
+- p2: 45,722 bytes HTML
+- p3: 1,829,088 bytes HTML
+
+Result: PASS — no validation issues detected
+index.html SHA-256: 906f6e5a5e672d5bc5b88ee921f3aca76c3600dc08929bbd3c03856cc29a421f
+index.html size: 4288592 bytes
